@@ -1,0 +1,44 @@
+.navbar {
+  background-color: #24292e; /* GitHub's default header background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-family: monospace; /* Use monospace font for all text */
+}
+
+/* Logo */
+.navbar-logo {
+  cursor: pointer;
+}
+
+/* Navigation links */
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px; /* Adjust spacing between links */
+}
+
+/* Button styles */
+.navbar-button {
+  background-color: #0366d6; /* GitHub's primary button color */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Button hover effect */
+.navbar-button:hover {
+  background-color: #0356bf; /* Darker shade of primary color on hover */
+}
+
+/* Adjust button spacing */
+.navbar-button:not(:last-child) {
+  margin-right: 10px;
+}
